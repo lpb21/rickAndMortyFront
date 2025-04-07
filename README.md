@@ -109,6 +109,16 @@ Barra de búsqueda con un botón para abrir el panel de filtros.
 
 ---
 
+## 🎥 Video explicativo
+
+A continuación, puedes ver un video explicativo sobre cómo funciona la aplicación y sus principales características:
+
+[Video Explicativo](https://drive.google.com/file/d/1Dz2R3vaTStBLwbvfhf-yHQW7E-Pc0Sb6/view?usp=sharing)
+
+Haz clic en el enlace para ver el video.
+
+---
+
 ## 🌐 API GraphQL
 
 La aplicación utiliza una API GraphQL para obtener los datos de los personajes. La consulta principal se encuentra en [`lib/graphql.js`](lib/graphql.js) y permite filtrar por especie, estado y género.
