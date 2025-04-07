@@ -1,0 +1,623 @@
+.deprueba{
+  width: 150px;
+  background-color: purple;
+}
+
+.characterlist {
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+  }
+  @media (width<=991px) {
+    .characterlist {
+      max-width: 100%;
+    }
+  }
+  .div {
+    gap: 20px;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .div {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  .column {
+    flex-direction: column;
+    align-items: stretch;
+    /* width: 26%; */
+    width: 30%;
+    margin-left: 0;
+    line-height: normal;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div2 {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    display: flex;
+  }
+  .windowheaders {
+    font-family:
+      Greycliff CF Figma 1,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: #1f2937;
+    padding-top: 42px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    /* añadido */
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    max-width: 375px;
+  }
+  .title {
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 1.2em;
+  }
+  @media (width<=991px) {
+    .title {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .transactionSearch {
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 343px;
+    max-width: 100%;
+    margin-top: 17px;
+    display: flex;
+  }
+  .navbarsSearchfield {
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    flex: 1;
+    justify-content: start;
+    align-self: stretch;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    min-width: 240px;
+    min-height: 52px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 7px 13px 7px 20px;
+    display: flex;
+    overflow: hidden;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .placeholder {
+    color: #6b7280;
+    font-family:
+      Greycliff CF Figma 1,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    flex: 1;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .rightContent {
+    justify-content: start;
+    align-self: stretch;
+    align-items: center;
+    gap: 11px;
+    width: 38px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+  }
+  .notification {
+    border-radius: 8px;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    width: 38px;
+    min-height: 38px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 7px;
+    display: flex;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .img2 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    align-self: stretch;
+    width: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .contacts {
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    width: 100%;
+    min-height: 592px;
+    max-height: 500px;
+    margin-top: 45px;
+    display: flex;
+    overflow: hidden;
+    /* añadido */
+    overflow-y: auto;
+    height: calc(100vh - 200px);
+    position: relative;
+  }
+  @media (width<=991px) {
+    .contacts {
+      margin-top: 40px;
+    }
+  }
+  .rowHeaderList {
+    width: 100%;
+    font-family:
+      Greycliff CF Figma 1,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    justify-content: start;
+    align-items: start;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .rowHeaderList {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .div3,
+  .div5 {
+    flex: 1;
+    width: 100%;
+    min-width: 240px;
+    min-height: 56px;
+  }
+  .div4,
+  .div6 {
+    flex: 1;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .listHeader {
+    flex: 1;
+    align-self: stretch;
+    gap: 12px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+  }
+  .stackedListsItem {
+    display: flex;
+    padding: 0px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    /* width: 100%; */
+    /* padding-left: 16px; */
+    /* padding-right: 16px; */
+    /* display: flex; */
+  }
+  .content2,
+  .content3,
+  .content4,
+  .content5,
+  .content6,
+  .content7 {
+    display: flex;
+    padding: 16px 20px;
+    align-items: center;
+    /* justify-content: start; */
+    gap: 16px;
+    /* width: 100%; */
+    align-self: stretch;
+  }
+  .content2 {
+    background-color: #eee3ff;
+    border-radius: 8px;
+  }
+  .img3,
+  .img5,
+  .img8,
+  .img11,
+  .img14,
+  .img17 {
+    /* aspect-ratio: 1; */
+    /* object-fit: contain; */
+    /* object-position: center; */
+    border-radius: 20px;
+    /* flex-shrink: 0; */
+    /* align-self: stretch; */
+    width: 32px;
+    height: 32px;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    /* font-family:
+      Greycliff CF Figma 1,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif; */
+    /* flex: 1; */
+    /* align-self: stretch; */
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    /* font-size: 16px; */
+  }
+  .title2,
+  .title3,
+  .title4,
+  .title5,
+  .title6,
+  .title7 {
+    font-family:
+      Greycliff CF Figma 1,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: #111827;
+    font-weight: 600;
+    line-height: normal;
+    align-self: stretch;
+  }
+  .suportingtext {
+    align-self: stretch;
+    font-family: Greycliff CF Figma 1;
+    font-size: 16px;
+    font-style: normal;
+    color: #6b7280;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .slideOversIconbutton {
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 16px;
+    /* justify-content: center; */
+    /* align-self: stretch; */
+    /* width: 32px; */
+    /* height: 32px; */
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    /* padding-left: 4px; */
+    /* padding-right: 4px; */
+    
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+  }
+  .img4,
+  .img6,
+  .img9,
+  .img12,
+  .img15,
+  .img18 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    align-self: stretch;
+    width: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .img7,
+  .img10,
+  .img13,
+  .img16 {
+    aspect-ratio: 333.33;
+    object-fit: contain;
+    object-position: center;
+    stroke-width: 1px;
+    stroke: #e5e7eb;
+    width: 100%;
+    /* añadido */
+    height: 1px;
+    background: #e5e7eb;
+  }
+  .column2 {
+    flex-direction: column;
+    align-items: stretch;
+    /* width: 74%; */
+    width: 70%;
+    /* margin-left: 20px; */
+    margin-left: 0px;
+    line-height: normal;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .column2 {
+      width: 100%;
+    }
+  }
+  .profilebackground {
+    background-color: #fff;
+    flex-grow: 1;
+    width: 100%;
+    /* padding-bottom: 507px; */
+    padding-bottom: 40px;
+    box-shadow: 0 4px 60px #0000000d;
+  }
+  @media (width<=991px) {
+    .profilebackground {
+      max-width: 100%;
+      padding-bottom: 100px;
+    }
+  }
+  .content8 {
+    background-color: #fff;
+    padding: 40px 100px 16px;
+  }
+  @media (width<=991px) {
+    .content8 {
+      max-width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .teammember {
+    width: 100%;
+  }
+  @media (width<=991px) {
+    .teammember {
+      max-width: 100%;
+    }
+  }
+  .div7 {
+    justify-content: start;
+    align-items: end;
+    gap: -22px;
+    width: 100%;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .div7 {
+      max-width: 100%;
+    }
+  }
+  .img19 {
+    aspect-ratio: 1.13;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 500px;
+    width: 85px;
+  }
+  .leftcontent {
+    width: 327px;
+    max-width: 100%;
+    font-family:
+      Greycliff CF Figma 1,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: #111827;
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .menugroup {
+    width: 100%;
+    font-family:
+      Greycliff CF Figma 1,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    white-space: nowrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 16px;
+  }
+  @media (width<=991px) {
+    .menugroup {
+      max-width: 100%;
+      white-space: initial;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .rowList {
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .rowList {
+      max-width: 100%;
+      white-space: initial;
+    }
+  }
+  .contentGroup {
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  @media (width<=991px) {
+    .contentGroup {
+      max-width: 100%;
+      white-space: initial;
+    }
+  }
+  .cellsInside {
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .cellsInside {
+      max-width: 100%;
+      white-space: initial;
+    }
+  }
+  .cellRegularElements {
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-self: stretch;
+    align-items: start;
+    width: 100%;
+    min-width: 240px;
+    min-height: 74px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .cellRegularElements {
+      max-width: 100%;
+      white-space: initial;
+    }
+    .texts {
+      white-space: initial;
+    }
+  }
+  .text2,
+  .text3,
+  .text4 {
+    color: #111827;
+    font-weight: 600;
+  }
+  .supportingtext {
+    color: #6b7280;
+    font-weight: 500;
+  }
+  .divider {
+    width: 100%;
+    min-height: 0;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .divider {
+      max-width: 100%;
+    }
+  }
+  .img20,
+  .img21 {
+    aspect-ratio: 1000;
+    object-fit: contain;
+    object-position: center;
+    stroke-width: 1px;
+    stroke: #e5e7eb;
+    width: 100%;
+  }
+  @media (width<=991px) {
+    .img20,
+    .img21 {
+      max-width: 100%;
+    }
+  }
+
+
+  /* Para la modal de busqueda */
+  .modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modalContent {
+    background: #1e1e2f;
+    border-radius: 12px;
+    padding: 24px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+
+  /* Agregado */
+
+  .stickyHeader {
+    position: sticky;
+    top: 0;
+    background-color: white; /* o el color de fondo que estés usando */
+    z-index: 10;
+    padding: 0.5rem 0;
+  }
